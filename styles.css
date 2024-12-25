@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Search Section */
+  .search-section {
+    background-color: #f4f4f4;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-container {
+    text-align: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  #search-bar {
+    width: 500px;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #search-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Categories Section */
+  .categories-section {
+    padding: 50px 20px;
+    background-color: #ffffff;
+  }
+  
+  .categories-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .category {
+    background-color: #007BFF;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .category:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Featured Cards Section */
+  .featured-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card h3 {
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  .card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

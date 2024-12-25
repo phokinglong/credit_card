@@ -4,40 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Credit Card Comparison Vietnam</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Credit Card Finder</h1>
-      <nav>
-        <a href="#credit-cards">Credit Cards</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
   <main>
     <!-- Search Bar Section -->
     <section class="search-section">
-      <div class="container">
+      <div class="search-container">
         <h2>Find the Best Credit Card for You</h2>
-        <input type="text" placeholder="Search by card type, bank, or benefits..." id="search-bar">
-        <button id="search-btn">Search</button>
+        <div class="search-bar">
+          <input type="text" placeholder="Search by card type, bank, or benefits..." id="search-bar">
+          <button id="search-btn">Search</button>
+        </div>
       </div>
     </section>
 
     <!-- Categories Section -->
     <section class="categories-section">
-      <div class="container">
-        <h2>Categories</h2>
-        <div class="categories">
-          <div class="category">Cashback</div>
-          <div class="category">Travel</div>
-          <div class="category">Low Interest</div>
-          <div class="category">Business</div>
-        </div>
+      <h2>Categories</h2>
+      <div class="categories-grid">
+        <div class="category">Cashback</div>
+        <div class="category">Travel</div>
+        <div class="category">Fashion</div>
+        <div class="category">Low Interest</div>
+        <div class="category">Business</div>
+        <div class="category">Dining</div>
       </div>
     </section>
 
@@ -47,32 +38,29 @@
         <h2>Featured Credit Cards</h2>
         <div class="card-grid">
           <div class="card">
-            <img src="card1.jpg" alt="Card 1">
-            <h3>Card Name 1</h3>
-            <p>Key Benefits: Cashback, Travel Rewards</p>
+            <h3>Standard Chartered Cashback Card</h3>
+            <p><strong>Bank:</strong> Standard Chartered</p>
+            <p><strong>Interest Rate:</strong> 20.5% per annum</p>
+            <p><strong>Benefits:</strong> 1% unlimited cashback, no minimum spend.</p>
             <button>Apply Now</button>
           </div>
           <div class="card">
-            <img src="card2.jpg" alt="Card 2">
-            <h3>Card Name 2</h3>
-            <p>Key Benefits: Low Interest, Cashback</p>
+            <h3>Vietcombank Travel Card</h3>
+            <p><strong>Bank:</strong> Vietcombank</p>
+            <p><strong>Interest Rate:</strong> 22.0% per annum</p>
+            <p><strong>Benefits:</strong> 5% cashback on travel bookings, free airport lounge access.</p>
             <button>Apply Now</button>
           </div>
           <div class="card">
-            <img src="card3.jpg" alt="Card 3">
-            <h3>Card Name 3</h3>
-            <p>Key Benefits: Travel, No Annual Fee</p>
+            <h3>Techcombank Platinum Card</h3>
+            <p><strong>Bank:</strong> Techcombank</p>
+            <p><strong>Interest Rate:</strong> 18.9% per annum</p>
+            <p><strong>Benefits:</strong> 10% cashback on dining, free movie tickets.</p>
             <button>Apply Now</button>
           </div>
         </div>
       </div>
     </section>
   </main>
-
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 Credit Card Finder Vietnam. All rights reserved.</p>
-    </div>
-  </footer>
 </body>
 </html>
